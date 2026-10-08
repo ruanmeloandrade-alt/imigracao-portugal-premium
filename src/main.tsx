@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, BookOpen, CheckCircle2, FileText, Globe2, Landmark, Menu, MessageCircle, Scale, ShieldCheck, Users, X } from 'lucide-react';
+import { ArrowUpRight, BookOpen, Briefcase, CheckCircle2, FileText, Globe2, Landmark, Menu, MessageCircle, Scale, ShieldCheck, Users, X } from 'lucide-react';
 import './styles.css';
 
 type Lang = 'pt' | 'en' | 'es';
