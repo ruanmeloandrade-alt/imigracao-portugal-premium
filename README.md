@@ -1,25 +1,30 @@
 # Imigracao Portugal Premium
 
-Migracao inicial do projeto Lovable **Imigracao Portugal Premium** para GitHub.
+Migracao independente do projeto Lovable para GitHub.
 
-Projeto original Lovable: https://lovable.dev/projects/9ca236f9-d717-4e50-89d0-e88b38aade67
+Site institucional da Dra. Barbara Felipe, advogada de imigracao em Portugal. A aplicacao roda como site estatico React + Vite, sem runtime, pacotes ou metadados Lovable.
 
-## Status
+## Rodar localmente
 
-- Primeira versao funcional em React + Vite.
-- Publicacao preparada via GitHub Pages workflow.
-- Conteudo principal, contato, WhatsApp e credenciais preservados a partir do projeto Lovable.
-- Assets visuais originais ficam para refinamento posterior.
-
-## Desenvolvimento
-
-```sh
+```bash
 npm install
 npm run dev
 ```
 
 ## Build
 
-```sh
+```bash
 npm run build
 ```
+
+## Deploy
+
+O workflow `.github/workflows/deploy-pages.yml` publica o site no GitHub Pages.
+
+Depois do deploy, fica faltando apenas configurar o dominio customizado e DNS.
+
+## Contato
+
+- WhatsApp: +351 937 004 025
+- Email: barbarafelipe-67769L@adv.oa.pt
+- Cedula profissional: 67769L
