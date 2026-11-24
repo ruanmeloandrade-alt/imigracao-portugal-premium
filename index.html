@@ -16,12 +16,32 @@
     .area { position: absolute; display: block; }
     .area:focus-visible { outline: 3px solid #3281bc; outline-offset: 2px; }
     @media print { section { break-inside: avoid; break-after: page; } @page { size: 16in 9in; margin: 0; } }
+    .whatsapp {
+      position: absolute;
+      left: 5.4%;
+      bottom: 14.05%;
+      display: inline-flex;
+      align-items: center;
+      gap: .55em;
+      min-height: max(26px, 2.45vw);
+      padding: .25em .8em;
+      box-sizing: border-box;
+      border-radius: .5em;
+      background: #102633;
+      color: #fff;
+      font: 600 max(11px, 1.25vw)/1.2 system-ui, sans-serif;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .whatsapp span { color: #e7d6b7; }
+    .whatsapp:hover { background: #234454; }
+    .whatsapp:focus-visible { outline: 3px solid #ba914a; outline-offset: 2px; }
   </style>
 </head>
 <body>
   <main aria-label="Bárbara Felipe Advocacia">
     <section id="inicio" aria-label="Assessoria Jurídica e Imigratória em Portugal">
-      <img src="/apresentacao/pagina-1.webp" width="2880" height="1620" alt="" fetchpriority="high">
+      <img src="/apresentacao/pagina-1.webp?v=hd4" width="2880" height="1620" alt="" fetchpriority="high">
       <svg class="texto" viewBox="0 0 1440 810" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Texto da página">
         <text x="143.88" y="251.24" font-size="64.14" textLength="568.95" lengthAdjust="spacingAndGlyphs">Assessoria Jurídica e</text>
         <text x="99.59" y="316.49" font-size="64.14" textLength="657.52" lengthAdjust="spacingAndGlyphs">Imigratória em Portugal</text>
@@ -31,7 +51,7 @@
       </svg>
     </section>
     <section id="apresentacao" aria-label="Assessoria em Portugal">
-      <img src="/apresentacao/pagina-2.webp" width="2880" height="1620" alt="" loading="lazy">
+      <img src="/apresentacao/pagina-2.webp?v=hd4" width="2880" height="1620" alt="" loading="lazy">
       <svg class="texto" viewBox="0 0 1440 810" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Texto da página">
         <text x="437.72" y="305.68" font-size="30.00" textLength="557.52" lengthAdjust="spacingAndGlyphs">Sabemos que o processo de regularização em</text>
         <text x="397.93" y="335.68" font-size="30.00" textLength="637.11" lengthAdjust="spacingAndGlyphs">Portugal pode gerar muitas dúvidas, principalmente</text>
@@ -224,7 +244,9 @@
         <text x="1236.47" y="716.55" font-size="21.86" textLength="111.66" lengthAdjust="spacingAndGlyphs">OA 67769L</text>
         <text x="81.00" y="716.54" font-size="19.99" textLength="356.29" lengthAdjust="spacingAndGlyphs">e-mail: barbarafelipe-67769L@adv.oa.pt</text>
       </svg>
-      <a class="area" aria-label="Falar pelo WhatsApp, +351 937 004 025" href="https://wa.me/351937004025" style="left:5.5556%;top:83.3333%;width:17.2917%;height:2.8395%"></a>
+      <a class="whatsapp" href="https://wa.me/351937004025" aria-label="Falar pelo WhatsApp no número +351 937 004 025">
+        <span>WhatsApp</span> +351 937 004 025
+      </a>
       <a class="area" aria-label="Enviar e-mail para Bárbara Felipe" href="mailto:barbarafelipe-67769L@adv.oa.pt" style="left:5.5556%;top:86.2963%;width:25.0000%;height:2.9630%"></a>
     </section>
   </main>
